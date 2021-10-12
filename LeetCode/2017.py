@@ -1,7 +1,7 @@
 from typing import List
 
 
-# TC: O(N^2)
+# TC: O(N)
 # SC: O(1)
 
 
