@@ -19,4 +19,3 @@ class Solution:
 s = Solution()
 print(s.maximumDifference([7, 1, 5, 4]))
 
-# 581202553
