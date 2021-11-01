@@ -32,9 +32,11 @@ class Bank:
                 return True
 
         return False
+
+
 # Your Bank object will be instantiated and called as such:
 obj = Bank([10, 100, 20, 50, 30])
-param_1 = obj.transfer(5,1,20)
+param_1 = obj.transfer(5, 1, 20)
 print(param_1)
 # param_2 = obj.deposit(account,money)
 # param_3 = obj.withdraw(account,money)
