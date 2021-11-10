@@ -1,5 +1,6 @@
 import re
 
+# https://leetcode.com/problems/number-of-valid-words-in-a-sentence/discuss/1538539/Fastest-Python-Solution-or-100-35ms
 
 class Solution:
     def countValidWords(self, sentence: str) -> int:
