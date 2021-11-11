@@ -1,4 +1,3 @@
-
 from collections import deque
 from typing import List
 
@@ -21,6 +20,7 @@ class Solution:
                         Q.append((next_x, cnt + 1))
         return -1
 
+
 s = Solution()
-print(s.minimumOperations(nums = [3,5,7], start = 0, goal = -4))
-print(s.minimumOperations(nums = [2,8,16], start = 0, goal = 1))
+print(s.minimumOperations(nums=[3, 5, 7], start=0, goal=-4))
+print(s.minimumOperations(nums=[2, 8, 16], start=0, goal=1))
